@@ -23,6 +23,6 @@ public class Specialty implements Serializable {
 
     @OneToMany(cascade = {CascadeType.PERSIST}, mappedBy = "specialty")
     @JsonIgnoreProperties("specialty")
-    private List<Doctor> doctor;
+    private List<Doctor> doctors;
 
 }
