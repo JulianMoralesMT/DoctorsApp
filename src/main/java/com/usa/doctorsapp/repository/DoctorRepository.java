@@ -22,7 +22,7 @@ public class DoctorRepository{
         return doctorCrudRepository.findById(idDoctor);
     }
 
-    public Doctor save (Doctor doctor){
+    public Doctor save(Doctor doctor){
         return doctorCrudRepository.save(doctor);
     }
 

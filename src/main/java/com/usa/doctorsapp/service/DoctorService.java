@@ -44,6 +44,9 @@ public class DoctorService {
                 if(doctor.getName()!=null){
                     optionalDoctor.get().setName(doctor.getName());
                 }
+                if (doctor.getDepartment() != null) {
+                    optionalDoctor.get().setDepartment(doctor.getDepartment());
+                }
                 if (doctor.getYear()!=null){
                     optionalDoctor.get().setYear(doctor.getYear());
                 }
